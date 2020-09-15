@@ -1,0 +1,61 @@
+Program gave us these results for hemoglobin:
+
+There are 75 surface residues and 21 out of them are polar.
+There are 66 buried residues and 9 out of them are polar.
+
+Name,SurfaceAmount,BuriedAmount
+ALA,17,11
+ARG,2,0
+ASN,4,2
+ASP,8,0
+CYS,0,1
+GLN,2,3
+GLU,5,0
+GLY,14,2
+HIS,0,2
+ILE,0,2
+LEU,1,8
+LYS,8,3
+MET,0,6
+PHE,0,10
+PRO,2,1
+SER,7,3
+THR,4,1
+TRP,0,4
+TYR,0,1
+VAL,0,7
+
+These results were obtained for the A2a receptor:
+
+There are 146 surface residues and 39 out of them are polar.
+There are 163 buried residues and 44 out of them are polar.
+
+Name,SurfaceAmount,BuriedAmount
+ALA,11,26
+ARG,11,2
+ASN,6,8
+ASP,1,3
+CYS,2,12
+GLN,10,0
+GLU,6,3
+GLY,11,5
+HIS,5,2
+ILE,6,22
+LEU,22,17
+LYS,8,0
+MET,1,5
+PHE,10,11
+PRO,7,4
+SER,6,10
+THR,5,6
+TRP,4,2
+TYR,5,6
+VAL,9,19
+
+We can clearly see, that A2a receptor is bigger and probably more globular than hemoglobin. Big difference is the portion of buried polar
+amino acids, but we can see that more than quarter of them (in the A2a receptor) are CYS residues which create disulfidic bonds and
+stabilize the protein. Big difference is also between buried GLN (polar) and ILE (non-polar) residues. Both of them may be scarce 
+in the A2a receptor due to more "dense" core - less space for long and branching side chains.
+
+Note: when trying to run the program on hemoglobin, it crashes because for some reason BioJava library takes hetatm record with res ID 1
+as a normal atom and because of that has more residues than my own representation.
