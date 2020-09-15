@@ -1,0 +1,1 @@
+Certain results from the program will be saved in this directory.
