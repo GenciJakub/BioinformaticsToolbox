@@ -9,7 +9,15 @@ http://bioinformatika.mff.cuni.cz/repository/#/stories/detail?id=bioinformatics_
 It is advised that the user acquaints with the assignments before the use of this program. Only basic level of knowledge in the field of bioinformatics is required from the user.
 
 ## How to start and run the program
-Program was developed in Java SE 13 (JDK 13) and only this version of JDK should be used to run it. If you want to clone this repository, you can do it with the ``` git clone https://github.com/GenciJakub/BioinformaticsToolbox ``` command. Program requires compilation before starting and there are two ways how to do it. More convenient option is to use the ZIP archive located in the FullPackage directory. There is an Ant build file (build.xml) through which you can build and compile the program. It is also possible to run the program through IntelliJ IDEA IDE (after unzipping you can create a project from the directory). Second option is to compile and run the program through the command line (if you do not have IDE installed). In this case, you need to install BioJava library first, so please follow [Biojava installation guidelines](https://biojava.org/wiki/BioJava%3AGetStarted). After that you can compile and run the program from the OwnBuild/src/ directory by 
+Program was developed in Java SE 13 (JDK 13) and only this version of JDK should be used to run it. Project uses Maven as a build tool. You can run the project from your favorite IDE for Java or from the command line. If you want to run the project from the command line, firstly download and install Maven. Instructions can be found here: 
+
+https://maven.apache.org/install.html
+
+After installing Maven, 
+
+If you want to run this program, firstly install maven
+
+If you want to clone this repository, you can do it with the ``` git clone https://github.com/GenciJakub/BioinformaticsToolbox ``` command. Program requires compilation before starting and there are two ways how to do it. More convenient option is to use the ZIP archive located in the FullPackage directory. There is an Ant build file (build.xml) through which you can build and compile the program. It is also possible to run the program through IntelliJ IDEA IDE (after unzipping you can create a project from the directory). Second option is to compile and run the program through the command line (if you do not have IDE installed). In this case, you need to install BioJava library first, so please follow [Biojava installation guidelines](https://biojava.org/wiki/BioJava%3AGetStarted). After that you can compile and run the program from the OwnBuild/src/ directory by 
 ```
 javac *.java 
 
