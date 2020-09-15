@@ -60,4 +60,4 @@ Program tells you how many times residues in chosen sequence appear at the same 
 ### Task 7 – Computing structure related properties
 This task is mainly about detecting surface and buried amino acids in the protein. This is done by BioJava library and requires a file in .pdb format (file with extension .pdb). I recommend trying the task with the 1yih.pdb file. If you want to know about theoretical background of this task, search for accessible solvent area (ASA).
 
-Note: results of work with the hemoglobin and A2a receptor are in the HemoglobinAndA2a.txt file (it can be found in .zip archive and OwnBuild directory)
+Note: results of work with the hemoglobin and A2a receptor are in the HemoglobinAndA2a.txt file
