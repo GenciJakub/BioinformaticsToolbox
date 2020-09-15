@@ -22,10 +22,9 @@ Last command depends on whether you want to use command line arguments of not.
 mvn exec:java -Dexec.mainClass=Controller
 mvn exec:java -Dexec.mainClass=Controller -Dexec.args="name of file with extension"
 ```
-After starting the program, check whether InputFiles and OutputFiles directories are located (correct location will be printed by the program).
 
 ## How to work with the program
-Program requires only keyboard input and for most of the tasks files (text format) stored in the InputFiles directory. After the start, user is asked whether he / she want to run a task. Valid responses are ‘n’ for stopping the program or ‘y’ for running a task (case does not matter).
+Program requires only keyboard input and for most of the tasks, files (in text format) stored in the InputFiles directory. After the start, user is asked whether he / she want to run a task. Valid responses are ‘n’ for stopping the program or ‘y’ for running a task (case does not matter).
 
 If user wants to run a task, he / she decides which file(s) should be used in this task (Note: working with more than one file is possible if assignment of the task specifies it, other files will be ignored). Priority have files passed as command line arguments to the program, but user may choose not to use them. In that case, he is asked to specify the files which contain data for the program. (Note: when writing name of file, write its full name – e. g. test.txt)
 
