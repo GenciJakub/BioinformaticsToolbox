@@ -9,7 +9,7 @@ http://bioinformatika.mff.cuni.cz/repository/#/stories/detail?id=bioinformatics_
 It is advised that the user acquaints with the assignments before the use of this program. Only basic level of knowledge in the field of bioinformatics is required from the user.
 
 ## How to start and run the program
-Program was developed in Java SE 13 (JDK 13) and only this version of JDK should be used to run it. Project uses Maven as a build tool. You can run the project from your favorite IDE for Java or from the command line. If you want to run the project from the command line, firstly download and install Maven. Instructions can be found here: https://maven.apache.org/install.html (or use ``` sudo apt install maven ```)
+Program was developed in Java SE 13 (JDK 13) and only this version of JDK should be used to run it. Project uses Maven as a build tool. You can run the project from your favorite IDE for Java or from the command line. If you want to run the project from the command line, firstly download and install Maven. Instructions can be found here: https://maven.apache.org/install.html (or use ``` sudo apt install maven ```).
 
 After installing Maven, download this repository with ``` git clone https://github.com/GenciJakub/BioinformaticsToolbox ``` command. Then you can run the program with:
 ```
