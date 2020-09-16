@@ -15,7 +15,6 @@ After installing Maven, download this repository with ``` git clone https://gith
 ```
 cd .../BioinformaticsToolbox
 mvn compile
-mvn clean install
 ```
 Last command depends on whether you want to use command line arguments of not.
 ```
